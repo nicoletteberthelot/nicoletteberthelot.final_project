@@ -11,7 +11,6 @@ header {
 	height: 50px;
 	flex-direction: row;
 	align-items: center;
-	position: fixed;
 }
 header .nav-left {
 	justify-content: flex-start;
