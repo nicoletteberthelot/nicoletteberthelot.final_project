@@ -33,7 +33,6 @@ $("#trains").change(function() {
 		$("#list").append("<li>" + outage.station + ": " + outage.serving + "</li>");
 
 	});	
-
 });
 
 $.ajax({
