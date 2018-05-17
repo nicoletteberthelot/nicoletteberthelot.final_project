@@ -1,0 +1,155 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+}	
+header {
+	display: flex;
+	max-width: 100%;
+	justify-content: space-between;
+	background: black; 
+	padding: 20px;
+	height: 50px;
+	flex-direction: row;
+	align-items: center;
+}
+header .nav-left {
+	justify-content: flex-start;
+}
+header .nav-right {
+	justify-content: flex-end;
+}
+a, h2, h3, p, h4, .text, #list {
+	font-family: 'Open Sans', sans-serif;
+}
+a {
+	font-size: 16px;
+	font-weight: 300;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+#link {
+	color: blue;
+}
+a:hover {
+	color: red;
+}
+span {
+	color: grey;
+}
+.blue-bar {
+	width: 100%;
+	background: navy;
+}
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	color: white;
+	font-size: 45px;
+}
+h2 {
+	font-weight: 100;
+	font-size: 18px;
+	color: white;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+h3, h4 {
+	color: navy;
+	font-weight: 100;
+	font-size: 35px;
+	margin: 0 auto;
+}
+h3 {
+	padding: 50px 0px 10px 20px;	
+
+}
+h4 {
+	padding: 20px 0px 10px 20px;	
+}
+ul {
+	padding-left: 30px;
+}
+section {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+#map {
+	width: 900px;
+	height: 1080px;
+}
+.content-left {
+	margin-right: 10px;
+}
+.content-right {
+	margin-left: 10px;
+}
+@media screen and (max-width: 480px) {
+	.content-right {
+		flex-direction: column;
+	}
+	.content-left {
+		flex-direction: column;
+	}
+}
+#trains {
+	margin: 20px 0px 0px 25px;
+    padding: 10px;
+    width: 150px;
+    height: 25px;
+    outline: none;
+    cursor: pointer;
+}
+p, p.about {
+	font-size: 16px;
+	font-weight: 100;
+	text-align: left;
+	color: black;
+}
+p {
+	margin: 100px 20px 0px 30px;
+}
+p.about {
+	margin: 0px 20px 0px 20px;
+}	
+.text {
+	width: 75%;
+	height: 25px;
+	border-radius: 3px;
+	color: grey;
+	margin: 30px 0px 10px 30px;
+}
+/*#button {
+	margin-left: 30px;
+	width: 75px;
+	height: 30px;
+	background-color: white;
+}*/
+li {
+	color: #646b6f;
+	font-size: 14px;
+	font-weight: 100;
+	list-style-type: none;
+}
+.me {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	background-image: url('../img/my-pic.jpg');
+	max-width: 100%;
+	background-size: cover;
+	position: relative;
+	height: 900px;
+}
+.container {
+	margin: 20px;
+}
+
+#white-box {
+	display: flex;
+	flex-direction: row;
+	background-color: rgba(255, 255, 255, .75);
+	height: 520px;
+	width: 350px;
+}
